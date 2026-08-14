@@ -2,9 +2,9 @@
   "name": "nextjs-shopify",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "find:unused": "next-unused",
     "prettier": "prettier"
